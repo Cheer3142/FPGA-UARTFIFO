@@ -1,0 +1,13 @@
+
+State Machine - |UARTFIFO|TxSerial:u_TxSerial|rState
+Name rState.StWtEnd rState.StWtData rState.StRdReq rState.StIdle 
+rState.StIdle 0 0 0 0 
+rState.StRdReq 0 0 1 1 
+rState.StWtData 0 1 0 1 
+rState.StWtEnd 1 0 0 1 
+
+State Machine - |UARTFIFO|RxSerial:u_RxSerial|rState
+Name rState.StChkFull rState.StRdEnd rState.StIdle 
+rState.StIdle 0 0 0 
+rState.StRdEnd 0 1 1 
+rState.StChkFull 1 0 1 

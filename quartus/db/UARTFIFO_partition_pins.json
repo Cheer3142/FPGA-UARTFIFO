@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "TxSerData",
+					"strict" : false
+				},
+				{
+					"name" : "Clk50",
+					"strict" : false
+				},
+				{
+					"name" : "RstB",
+					"strict" : false
+				},
+				{
+					"name" : "RxSerData",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
