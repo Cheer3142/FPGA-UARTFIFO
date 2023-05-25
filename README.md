@@ -1,5 +1,5 @@
 # FPGA-UARTFIFO
-This project is my work at Digital Design Camp in year 2018 to use FPGA with transceiver module to create UART communication.
+This project was my work at Digital Design Camp in year 2018 to use FPGA with transceiver module to create UART communication.
 
 Components that I worked with in this project 
 - RxSerial (Receiver entity)
